@@ -3536,6 +3536,170 @@ Voulez-vous le supprimer ?</value>
     <value>Plus d’Options</value>
     <comment>More Options</comment>
   </data>
+  <data name="RentSubControl.AlreadySubscribed" xml:space="preserve">
+    <value>Déjà abonné ?</value>
+    <comment>Already subscribed?</comment>
+  </data>
+  <data name="RentSubControl.BestValue" xml:space="preserve">
+    <value>MEILLEURE OFFRE</value>
+    <comment>BEST VALUE</comment>
+  </data>
+  <data name="RentSubControl.CancelAnytime" xml:space="preserve">
+    <value>Annulez à tout moment</value>
+    <comment>Cancel anytime</comment>
+  </data>
+  <data name="RentSubControl.ChooseYourPlanUpper" xml:space="preserve">
+    <value>CHOISISSEZ VOTRE OFFRE</value>
+    <comment>CHOOSE YOUR PLAN</comment>
+  </data>
+  <data name="RentSubControl.ContinueWithPro" xml:space="preserve">
+    <value>Continuer avec Pro</value>
+    <comment>Continue with Pro</comment>
+  </data>
+  <data name="RentSubControl.EmptyAccountName" xml:space="preserve">
+    <value>&lt;NOM VIDE&gt;</value>
+    <comment>&lt;EMPTY NAME&gt;</comment>
+  </data>
+  <data name="RentSubControl.FeatureAircraft" xml:space="preserve">
+    <value>60+ avions</value>
+    <comment>60+ aircraft</comment>
+  </data>
+  <data name="RentSubControl.FeatureAirports" xml:space="preserve">
+    <value>27 000+ aéroports</value>
+    <comment>27,000+ airports</comment>
+  </data>
+  <data name="RentSubControl.FeatureAirTrafficControl" xml:space="preserve">
+    <value>Contrôle aérien</value>
+    <comment>Air traffic control</comment>
+  </data>
+  <data name="RentSubControl.FeatureAutopilotPlus" xml:space="preserve">
+    <value>AutoPilot+</value>
+    <comment>AutoPilot+</comment>
+  </data>
+  <data name="RentSubControl.FeatureEfbIntegration" xml:space="preserve">
+    <value>Intégration EFB</value>
+    <comment>EFB integration</comment>
+  </data>
+  <data name="RentSubControl.FeatureGlobalHdScenery" xml:space="preserve">
+    <value>Scénarios HD mondiaux</value>
+    <comment>Global HD scenery</comment>
+  </data>
+  <data name="RentSubControl.FeatureLiveries" xml:space="preserve">
+    <value>1 000+ livrées</value>
+    <comment>1,000+ liveries</comment>
+  </data>
+  <data name="RentSubControl.FeatureLiveMultiplayer" xml:space="preserve">
+    <value>Multijoueur en direct</value>
+    <comment>Live multiplayer</comment>
+  </data>
+  <data name="RentSubControl.FeatureLiveWeather" xml:space="preserve">
+    <value>Météo en direct</value>
+    <comment>Live weather</comment>
+  </data>
+  <data name="RentSubControl.FeatureSimBriefIntegration" xml:space="preserve">
+    <value>Intégration SimBrief</value>
+    <comment>SimBrief integration</comment>
+  </data>
+  <data name="RentSubControl.InsufficientAccountsMessage" xml:space="preserve">
+    <value>Comptes enregistrés : {0}</value>
+    <comment>Found {0} saved accounts.</comment>
+  </data>
+  <data name="RentSubControl.Monthly" xml:space="preserve">
+    <value>Mensuel</value>
+    <comment>Monthly</comment>
+  </data>
+  <data name="RentSubControl.OneTimePurchase" xml:space="preserve">
+    <value>Achat unique</value>
+    <comment>One-time purchase</comment>
+  </data>
+  <data name="RentSubControl.PerMonth" xml:space="preserve">
+    <value>{0}{1:0.00}/mois</value>
+    <comment>{currency}{price}/month</comment>
+  </data>
+  <data name="RentSubControl.PerMonthWithSavings" xml:space="preserve">
+    <value>{0}{1:0.00}/mois - {2}</value>
+    <comment>{currency}{price}/month - {savings}</comment>
+  </data>
+  <data name="RentSubControl.Period24Hours" xml:space="preserve">
+    <value>/24 h</value>
+    <comment>/24hrs</comment>
+  </data>
+  <data name="RentSubControl.PeriodMonth" xml:space="preserve">
+    <value>/mois</value>
+    <comment>/month</comment>
+  </data>
+  <data name="RentSubControl.PeriodSixMonths" xml:space="preserve">
+    <value>/6 mois</value>
+    <comment>/6 months</comment>
+  </data>
+  <data name="RentSubControl.PeriodYear" xml:space="preserve">
+    <value>/an</value>
+    <comment>/year</comment>
+  </data>
+  <data name="RentSubControl.PlanAndPriceFormat" xml:space="preserve">
+    <value>{0} - {1}</value>
+    <comment>{plan} - {localized price}</comment>
+  </data>
+  <data name="RentSubControl.ProBadge" xml:space="preserve">
+    <value>PRO</value>
+    <comment>PRO</comment>
+  </data>
+  <data name="RentSubControl.RedeemCode" xml:space="preserve">
+    <value>Utiliser un code</value>
+    <comment>Redeem Code</comment>
+  </data>
+  <data name="RentSubControl.Rent24Hours" xml:space="preserve">
+    <value>Location (24 h)</value>
+    <comment>Rent (24hrs)</comment>
+  </data>
+  <data name="RentSubControl.RentAircraft" xml:space="preserve">
+    <value>Louer l’avion</value>
+    <comment>Rent Aircraft</comment>
+  </data>
+  <data name="RentSubControl.RentFootnote" xml:space="preserve">
+    <value>{0}{1}.</value>
+    <comment>{price}{period}.</comment>
+  </data>
+  <data name="RentSubControl.ReviewQuoteEngadget" xml:space="preserve">
+    <value>"L’un des meilleurs sur l’App Store" - Engadget</value>
+    <comment>"One of the best on the App Store" - Engadget</comment>
+  </data>
+  <data name="RentSubControl.ReviewQuoteNyt" xml:space="preserve">
+    <value>"Le meilleur simulateur de vol sur mobile" - The New York Times</value>
+    <comment>"The best flight simulator on mobile" - The New York Times</comment>
+  </data>
+  <data name="RentSubControl.SavePercentUpper" xml:space="preserve">
+    <value>ÉCONOMISEZ {0}%</value>
+    <comment>SAVE {percent}%</comment>
+  </data>
+  <data name="RentSubControl.SixMonths" xml:space="preserve">
+    <value>6 mois</value>
+    <comment>6 Months</comment>
+  </data>
+  <data name="RentSubControl.SubscriptionFootnote" xml:space="preserve">
+    <value>{0}{1}. Annulez à tout moment.</value>
+    <comment>{price}{period}. Cancel anytime.</comment>
+  </data>
+  <data name="RentSubControl.SubscriptionUnavailable" xml:space="preserve">
+    <value>Abonnement indisponible</value>
+    <comment>Subscription Unavailable</comment>
+  </data>
+  <data name="RentSubControl.SubscriptionUnavailableBetaMessage" xml:space="preserve">
+    <value>Les achats d’abonnement sont désactivés dans la version bêta. Installez Infinite Flight depuis {0} pour vous abonner à Pro.</value>
+    <comment>Subscription purchases are disabled in the beta version. Please install Infinite Flight from the {0} to subscribe to Pro.</comment>
+  </data>
+  <data name="RentSubControl.SwitchingTo" xml:space="preserve">
+    <value>Passage à {0}</value>
+    <comment>Switching to {0}</comment>
+  </data>
+  <data name="RentSubControl.UnlockFullExperience" xml:space="preserve">
+    <value>Vivez l'expérience de vol complète</value>
+    <comment>Unlock the full flight simulation experience</comment>
+  </data>
+  <data name="RentSubControl.Yearly" xml:space="preserve">
+    <value>Annuel</value>
+    <comment>Yearly</comment>
+  </data>
   <data name="RentSubControl.MultiplayerWithAtc.Description" xml:space="preserve">
     <value>VOLEZ AVEC DES MILLIERS D’AUTRES PILOTES &amp; ATC</value>
     <comment>FLY WITH THOUSANDS OF OTHER PILOTS &amp; ATC</comment>
@@ -3696,5 +3860,9 @@ Appuyez sur Annuler pour désactiver.</value>
   <data name="FlightAnalyzer.AutoPilotPlusCancel" xml:space="preserve">
     <value>ANNULER</value>
     <comment>Cancel button for Autopilot+ dialog</comment>
+  </data>
+  <data name="SubscriptionMorePlansControl.SignIn" xml:space="preserve">
+    <value>Se connecter</value>
+    <comment>Sign in</comment>
   </data>
 </root>

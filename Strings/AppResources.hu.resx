@@ -2995,4 +2995,180 @@ Bármikor lemondhatja a Google Play előfizetési központjában.</value>
   <data name="AircraftPage.RentAircraftUpper" xml:space="preserve">
     <value>Bérelje a repülőgépet</value>
   </data>
+  <data name="RentSubControl.AlreadySubscribed" xml:space="preserve">
+    <value>Már előfizető?</value>
+    <comment>Already subscribed?</comment>
+  </data>
+  <data name="RentSubControl.BestValue" xml:space="preserve">
+    <value>LEGJOBB AJÁNLAT</value>
+    <comment>BEST VALUE</comment>
+  </data>
+  <data name="RentSubControl.CancelAnytime" xml:space="preserve">
+    <value>Bármikor lemondható</value>
+    <comment>Cancel anytime</comment>
+  </data>
+  <data name="RentSubControl.ChooseYourPlanUpper" xml:space="preserve">
+    <value>VÁLASZD KI A CSOMAGOD</value>
+    <comment>CHOOSE YOUR PLAN</comment>
+  </data>
+  <data name="RentSubControl.ContinueWithPro" xml:space="preserve">
+    <value>Tovább a Pro-val</value>
+    <comment>Continue with Pro</comment>
+  </data>
+  <data name="RentSubControl.EmptyAccountName" xml:space="preserve">
+    <value>&lt;NINCS NÉV&gt;</value>
+    <comment>&lt;EMPTY NAME&gt;</comment>
+  </data>
+  <data name="RentSubControl.FeatureAircraft" xml:space="preserve">
+    <value>Több mint 60 repülőgép</value>
+    <comment>60+ aircraft</comment>
+  </data>
+  <data name="RentSubControl.FeatureAirports" xml:space="preserve">
+    <value>Több mint 27 000 repülőtér</value>
+    <comment>27,000+ airports</comment>
+  </data>
+  <data name="RentSubControl.FeatureAirTrafficControl" xml:space="preserve">
+    <value>Légiforgalmi irányítás</value>
+    <comment>Air traffic control</comment>
+  </data>
+  <data name="RentSubControl.FeatureAutopilotPlus" xml:space="preserve">
+    <value>AutoPilot+</value>
+    <comment>AutoPilot+</comment>
+  </data>
+  <data name="RentSubControl.FeatureEfbIntegration" xml:space="preserve">
+    <value>EFB-integráció</value>
+    <comment>EFB integration</comment>
+  </data>
+  <data name="RentSubControl.FeatureGlobalHdScenery" xml:space="preserve">
+    <value>Globális HD táj</value>
+    <comment>Global HD scenery</comment>
+  </data>
+  <data name="RentSubControl.FeatureLiveries" xml:space="preserve">
+    <value>Több mint 1000 festés</value>
+    <comment>1,000+ liveries</comment>
+  </data>
+  <data name="RentSubControl.FeatureLiveMultiplayer" xml:space="preserve">
+    <value>Élő többjátékos mód</value>
+    <comment>Live multiplayer</comment>
+  </data>
+  <data name="RentSubControl.FeatureLiveWeather" xml:space="preserve">
+    <value>Valós idejű időjárás</value>
+    <comment>Live weather</comment>
+  </data>
+  <data name="RentSubControl.FeatureSimBriefIntegration" xml:space="preserve">
+    <value>SimBrief-integráció</value>
+    <comment>SimBrief integration</comment>
+  </data>
+  <data name="RentSubControl.InsufficientAccountsMessage" xml:space="preserve">
+    <value>{0} mentett fiók található.</value>
+    <comment>Found {0} saved accounts.</comment>
+  </data>
+  <data name="RentSubControl.Monthly" xml:space="preserve">
+    <value>Havi</value>
+    <comment>Monthly</comment>
+  </data>
+  <data name="RentSubControl.OneTimePurchase" xml:space="preserve">
+    <value>Egyszeri vásárlás</value>
+    <comment>One-time purchase</comment>
+  </data>
+  <data name="RentSubControl.PerMonth" xml:space="preserve">
+    <value>{0}{1:0.00}/hó</value>
+    <comment>{currency}{price}/month</comment>
+  </data>
+  <data name="RentSubControl.PerMonthWithSavings" xml:space="preserve">
+    <value>{0}{1:0.00}/hó - {2}</value>
+    <comment>{currency}{price}/month - {savings}</comment>
+  </data>
+  <data name="RentSubControl.Period24Hours" xml:space="preserve">
+    <value>/24 óra</value>
+    <comment>/24hrs</comment>
+  </data>
+  <data name="RentSubControl.PeriodMonth" xml:space="preserve">
+    <value>/hó</value>
+    <comment>/month</comment>
+  </data>
+  <data name="RentSubControl.PeriodSixMonths" xml:space="preserve">
+    <value>/6 hónap</value>
+    <comment>/6 months</comment>
+  </data>
+  <data name="RentSubControl.PeriodYear" xml:space="preserve">
+    <value>/év</value>
+    <comment>/year</comment>
+  </data>
+  <data name="RentSubControl.PlanAndPriceFormat" xml:space="preserve">
+    <value>{0} - {1}</value>
+    <comment>{plan} - {localized price}</comment>
+  </data>
+  <data name="RentSubControl.ProBadge" xml:space="preserve">
+    <value>PRO</value>
+    <comment>PRO</comment>
+  </data>
+  <data name="RentSubControl.RedeemCode" xml:space="preserve">
+    <value>Kód beváltása</value>
+    <comment>Redeem Code</comment>
+  </data>
+  <data name="RentSubControl.Rent24Hours" xml:space="preserve">
+    <value>Bérlés (24 óra)</value>
+    <comment>Rent (24hrs)</comment>
+  </data>
+  <data name="RentSubControl.RentAircraft" xml:space="preserve">
+    <value>Repülőgép bérlése</value>
+    <comment>Rent Aircraft</comment>
+  </data>
+  <data name="RentSubControl.RentFootnote" xml:space="preserve">
+    <value>{0}{1}.</value>
+    <comment>{price}{period}.</comment>
+  </data>
+  <data name="RentSubControl.ReviewQuoteEngadget" xml:space="preserve">
+    <value>„Az App Store egyik legjobbja" – Engadget</value>
+    <comment>"One of the best on the App Store" - Engadget</comment>
+  </data>
+  <data name="RentSubControl.ReviewQuoteNyt" xml:space="preserve">
+    <value>„A legjobb repülésszimulátor mobilon" – The New York Times</value>
+    <comment>"The best flight simulator on mobile" - The New York Times</comment>
+  </data>
+  <data name="RentSubControl.SavePercentUpper" xml:space="preserve">
+    <value>{0}% MEGTAKARÍTÁS</value>
+    <comment>SAVE {percent}%</comment>
+  </data>
+  <data name="RentSubControl.SixMonths" xml:space="preserve">
+    <value>6 hónap</value>
+    <comment>6 Months</comment>
+  </data>
+  <data name="RentSubControl.SubscriptionFootnote" xml:space="preserve">
+    <value>{0}{1}. Bármikor lemondható.</value>
+    <comment>{price}{period}. Cancel anytime.</comment>
+  </data>
+  <data name="RentSubControl.SubscriptionUnavailable" xml:space="preserve">
+    <value>Előfizetés nem elérhető</value>
+    <comment>Subscription Unavailable</comment>
+  </data>
+  <data name="RentSubControl.SubscriptionUnavailableBetaMessage" xml:space="preserve">
+    <value>Az előfizetés a béta verzióban nem elérhető. Kérjük, telepítsd az Infinite Flight-ot a(z) {0}-ból a Pro előfizetéshez.</value>
+    <comment>Subscription purchases are disabled in the beta version. Please install Infinite Flight from the {0} to subscribe to Pro.</comment>
+  </data>
+  <data name="RentSubControl.SwitchingTo" xml:space="preserve">
+    <value>Váltás: {0}</value>
+    <comment>Switching to {0}</comment>
+  </data>
+  <data name="RentSubControl.UnlockFullExperience" xml:space="preserve">
+    <value>A teljes repülésszimulációs élmény feloldása</value>
+    <comment>Unlock the full flight simulation experience</comment>
+  </data>
+  <data name="RentSubControl.Yearly" xml:space="preserve">
+    <value>Éves</value>
+    <comment>Yearly</comment>
+  </data>
+  <data name="SubscriptionMorePlansControl.SignIn" xml:space="preserve">
+    <value>Bejelentkezés</value>
+    <comment>Sign in</comment>
+  </data>
+  <data name="GameSelectionModalControl.FailedToOpenUrl" xml:space="preserve">
+    <value>A hivatkozás megnyitása sikertelen.</value>
+    <comment>Failed to open url link.</comment>
+  </data>
+  <data name="ProPlansControl.FailedToRetrieveSubs" xml:space="preserve">
+    <value>Az előfizetési csomagok lekérése sikertelen</value>
+    <comment>Failed to retrieve any subscription plans</comment>
+  </data>
 </root>
