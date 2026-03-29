@@ -1519,10 +1519,10 @@
     <value>Aucun résultat pour "{0}"</value>
   </data>
   <data name="ItemSearchControl.SearchAirports" xml:space="preserve">
-    <value>Rechercher des aéroports</value>
+    <value>Rechercher</value>
   </data>
   <data name="ItemSearchControl.SearchAirportsAndWaypoints" xml:space="preserve">
-    <value>Rechercher des aéroports/points</value>
+    <value>Rechercher</value>
   </data>
   <data name="LocationPage.NoAvailableStartLocations" xml:space="preserve">
     <value>Aucun point de départ disponible pour le {0}</value>
