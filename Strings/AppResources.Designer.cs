@@ -115,6 +115,123 @@ namespace Fds.Framework.EmbeddedResources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to COMMERCIAL.
+        /// </summary>
+        internal static string AircraftFilterControl_Commercial {
+            get {
+                return ResourceManager.GetString("AircraftFilterControl.Commercial", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to COUNTRY.
+        /// </summary>
+        internal static string AircraftFilterControl_Country {
+            get {
+                return ResourceManager.GetString("AircraftFilterControl.Country", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Engine Type.
+        /// </summary>
+        internal static string AircraftFilterControl_EngineType {
+            get {
+                return ResourceManager.GetString("AircraftFilterControl.EngineType", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to JET.
+        /// </summary>
+        internal static string AircraftFilterControl_Jet {
+            get {
+                return ResourceManager.GetString("AircraftFilterControl.Jet", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to MANUFACTURER.
+        /// </summary>
+        internal static string AircraftFilterControl_Manufacturer {
+            get {
+                return ResourceManager.GetString("AircraftFilterControl.Manufacturer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to MILITARY.
+        /// </summary>
+        internal static string AircraftFilterControl_Military {
+            get {
+                return ResourceManager.GetString("AircraftFilterControl.Military", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to MODEL.
+        /// </summary>
+        internal static string AircraftFilterControl_Model {
+            get {
+                return ResourceManager.GetString("AircraftFilterControl.Model", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Only Free/Rented.
+        /// </summary>
+        internal static string AircraftFilterControl_OnlyFreeRented {
+            get {
+                return ResourceManager.GetString("AircraftFilterControl.OnlyFreeRented", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Operator Type.
+        /// </summary>
+        internal static string AircraftFilterControl_OperatorType {
+            get {
+                return ResourceManager.GetString("AircraftFilterControl.OperatorType", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to PISTON.
+        /// </summary>
+        internal static string AircraftFilterControl_Piston {
+            get {
+                return ResourceManager.GetString("AircraftFilterControl.Piston", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Show older aircraft.
+        /// </summary>
+        internal static string AircraftFilterControl_ShowOlderAircraft {
+            get {
+                return ResourceManager.GetString("AircraftFilterControl.ShowOlderAircraft", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sort By.
+        /// </summary>
+        internal static string AircraftFilterControl_SortBy {
+            get {
+                return ResourceManager.GetString("AircraftFilterControl.SortBy", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to TURBOPROP.
+        /// </summary>
+        internal static string AircraftFilterControl_Turboprop {
+            get {
+                return ResourceManager.GetString("AircraftFilterControl.Turboprop", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Expires in.
         /// </summary>
         internal static string AircraftPage_ExpiresIn {
@@ -237,6 +354,60 @@ namespace Fds.Framework.EmbeddedResources {
         internal static string AircraftProfileImageControl_ImageUnavailable {
             get {
                 return ResourceManager.GetString("AircraftProfileImageControl.ImageUnavailable", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0} aircraft.
+        /// </summary>
+        internal static string AircraftSelectionControl_AircraftCountPlural {
+            get {
+                return ResourceManager.GetString("AircraftSelectionControl.AircraftCountPlural", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0} aircraft.
+        /// </summary>
+        internal static string AircraftSelectionControl_AircraftCountSingular {
+            get {
+                return ResourceManager.GetString("AircraftSelectionControl.AircraftCountSingular", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0} liveries.
+        /// </summary>
+        internal static string AircraftSelectionControl_LiveryCountPlural {
+            get {
+                return ResourceManager.GetString("AircraftSelectionControl.LiveryCountPlural", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0} livery.
+        /// </summary>
+        internal static string AircraftSelectionControl_LiveryCountSingular {
+            get {
+                return ResourceManager.GetString("AircraftSelectionControl.LiveryCountSingular", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Misc..
+        /// </summary>
+        internal static string AircraftSelectionControl_MiscShort {
+            get {
+                return ResourceManager.GetString("AircraftSelectionControl.MiscShort", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to OPERATORS.
+        /// </summary>
+        internal static string AircraftSelectionFooterControl_Operators {
+            get {
+                return ResourceManager.GetString("AircraftSelectionFooterControl.Operators", resourceCulture);
             }
         }
         
@@ -5535,6 +5706,231 @@ namespace Fds.Framework.EmbeddedResources {
                 return ResourceManager.GetString("PauseFlightControl.RefuelingError.RentalPeriodExpired", resourceCulture);
             }
         }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Auto Exit.
+        /// </summary>
+        internal static string PauseFlightControl_AutoExit {
+            get {
+                return ResourceManager.GetString("PauseFlightControl.AutoExit", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Automatically exits the flight 30 minutes before destination and continues on AutoPilot+ if conditions allow.
+        /// </summary>
+        internal static string PauseFlightControl_AutoExitDescription {
+            get {
+                return ResourceManager.GetString("PauseFlightControl.AutoExitDescription", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to LONG PRESS IN THE CENTER OF THE SCREEN TO TOGGLE CONTROLS.
+        /// </summary>
+        internal static string Hud2_FullScreenModeHintLine1 {
+            get {
+                return ResourceManager.GetString("Hud2.FullScreenModeHintLine1", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to DRONE CAMERA MOTION REMAINS ACTIVE.
+        /// </summary>
+        internal static string Hud2_FullScreenModeHintDroneCamera {
+            get {
+                return ResourceManager.GetString("Hud2.FullScreenModeHintDroneCamera", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to AILERON/ELEVATOR CONTROL REMAINS ACTIVE.
+        /// </summary>
+        internal static string Hud2_FullScreenModeHintAileronElevator {
+            get {
+                return ResourceManager.GetString("Hud2.FullScreenModeHintAileronElevator", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to MOVE.
+        /// </summary>
+        internal static string OnScreenJoystickControl_Move {
+            get {
+                return ResourceManager.GetString("OnScreenJoystickControl.Move", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to LOOK.
+        /// </summary>
+        internal static string OnScreenJoystickControl_Look {
+            get {
+                return ResourceManager.GetString("OnScreenJoystickControl.Look", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to TAP TO USE.
+        /// </summary>
+        internal static string OnScreenJoystickControl_TapToUse {
+            get {
+                return ResourceManager.GetString("OnScreenJoystickControl.TapToUse", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to SELECT CONTROL MODE.
+        /// </summary>
+        internal static string ControlMethodPopup_SelectControlMode {
+            get {
+                return ResourceManager.GetString("ControlMethodPopup.SelectControlMode", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to TILT.
+        /// </summary>
+        internal static string ControlMethodPopup_Tilt {
+            get {
+                return ResourceManager.GetString("ControlMethodPopup.Tilt", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to TOUCH.
+        /// </summary>
+        internal static string ControlMethodPopup_Touch {
+            get {
+                return ResourceManager.GetString("ControlMethodPopup.Touch", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to OK.
+        /// </summary>
+        internal static string ControlMethodPopup_OK {
+            get {
+                return ResourceManager.GetString("ControlMethodPopup.OK", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Flight Control Input.
+        /// </summary>
+        internal static string ApplicationSettings_FlightControlInput {
+            get {
+                return ResourceManager.GetString("ApplicationSettings.FlightControlInput", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Choose how to control the aircraft: motion or on-screen controls.
+        /// </summary>
+        internal static string ApplicationSettings_FlightControlInputDescription {
+            get {
+                return ResourceManager.GetString("ApplicationSettings.FlightControlInputDescription", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Show Control Method Popup.
+        /// </summary>
+        internal static string ApplicationSettings_ShowControlMethodPopup {
+            get {
+                return ResourceManager.GetString("ApplicationSettings.ShowControlMethodPopup", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Reset to show control method selection on flight start.
+        /// </summary>
+        internal static string ApplicationSettings_ShowControlMethodPopupDescription {
+            get {
+                return ResourceManager.GetString("ApplicationSettings.ShowControlMethodPopupDescription", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Showing interface in {0}....
+        /// </summary>
+        internal static string JoystickPanningArea_ShowingInterfaceInFormat {
+            get {
+                return ResourceManager.GetString("JoystickPanningArea.ShowingInterfaceInFormat", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Hiding interface in {0}....
+        /// </summary>
+        internal static string JoystickPanningArea_HidingInterfaceInFormat {
+            get {
+                return ResourceManager.GetString("JoystickPanningArea.HidingInterfaceInFormat", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Autopilot+.
+        /// </summary>
+        internal static string FlightAnalyzer_AutoPilotPlusTitle {
+            get {
+                return ResourceManager.GetString("FlightAnalyzer.AutoPilotPlusTitle", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Auto Save will engage Autopilot+ automatically in 1 minute if conditions are still met....
+        /// </summary>
+        internal static string FlightAnalyzer_AutoPilotPlusMessage {
+            get {
+                return ResourceManager.GetString("FlightAnalyzer.AutoPilotPlusMessage", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to OK.
+        /// </summary>
+        internal static string FlightAnalyzer_AutoPilotPlusOK {
+            get {
+                return ResourceManager.GetString("FlightAnalyzer.AutoPilotPlusOK", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to CANCEL.
+        /// </summary>
+        internal static string FlightAnalyzer_AutoPilotPlusCancel {
+            get {
+                return ResourceManager.GetString("FlightAnalyzer.AutoPilotPlusCancel", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Failed to retrieve any subscription plans.
+        /// </summary>
+        internal static string ProPlansControl_FailedToRetrieveSubs {
+            get {
+                return ResourceManager.GetString("ProPlansControl.FailedToRetrieveSubs", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Most Popular.
+        /// </summary>
+        internal static string ProPlansControl_MostPopular {
+            get {
+                return ResourceManager.GetString("ProPlansControl.MostPopular", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Unauthorized access to subscription plans.
+        /// </summary>
+        internal static string ProPlansControl_UnauthorizedAccess {
+            get {
+                return ResourceManager.GetString("ProPlansControl.UnauthorizedAccess", resourceCulture);
+            }
+        }
         
         /// <summary>
         ///   Looks up a localized string similar to Auto Pushback is not available for {0} at this time..
@@ -5664,6 +6060,510 @@ namespace Fds.Framework.EmbeddedResources {
         internal static string PushbackSystem_UnableToStartMessage {
             get {
                 return ResourceManager.GetString("PushbackSystem.UnableToStartMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to DAILY EVENTS AND GROUP FLIGHTS.
+        /// </summary>
+        internal static string RentSubControl_ActiveCommunity_Description {
+            get {
+                return ResourceManager.GetString("RentSubControl.ActiveCommunity.Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ACTIVE COMMUNITY.
+        /// </summary>
+        internal static string RentSubControl_ActiveCommunity_Title {
+            get {
+                return ResourceManager.GetString("RentSubControl.ActiveCommunity.Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to WORLDWIDE HD 15M/PX SATELLITE TERRAIN IMAGERY.
+        /// </summary>
+        internal static string RentSubControl_ExploreTheWorld_Description {
+            get {
+                return ResourceManager.GetString("RentSubControl.ExploreTheWorld.Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to EXPLORE THE WORLD.
+        /// </summary>
+        internal static string RentSubControl_ExploreTheWorld_Title {
+            get {
+                return ResourceManager.GetString("RentSubControl.ExploreTheWorld.Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Help.
+        /// </summary>
+        internal static string RentSubControl_Help {
+            get {
+                return ResourceManager.GetString("RentSubControl.Help", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to REAL-WORLD GLOBAL NAVIGATION DATA.
+        /// </summary>
+        internal static string RentSubControl_InstrumentProcedures_Description {
+            get {
+                return ResourceManager.GetString("RentSubControl.InstrumentProcedures.Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to INSTRUMENT PROCEDURES.
+        /// </summary>
+        internal static string RentSubControl_InstrumentProcedures_Title {
+            get {
+                return ResourceManager.GetString("RentSubControl.InstrumentProcedures.Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0} ({1}) requires a subscription to fly.
+        /// </summary>
+        internal static string RentSubControl_MessageAircraftLiverySub {
+            get {
+                return ResourceManager.GetString("RentSubControl.MessageAircraftLiverySub", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0} ({1}) requires a rental or a subscription to fly.
+        /// </summary>
+        internal static string RentSubControl_MessageAircraftLiverySubRent {
+            get {
+                return ResourceManager.GetString("RentSubControl.MessageAircraftLiverySubRent", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Infinite Flight Pro gives you access to all aircraft, global scenery and multiplayer.
+        /// </summary>
+        internal static string RentSubControl_MessageGenericSub {
+            get {
+                return ResourceManager.GetString("RentSubControl.MessageGenericSub", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to More Options.
+        /// </summary>
+        internal static string RentSubControl_MoreOptions {
+            get {
+                return ResourceManager.GetString("RentSubControl.MoreOptions", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Already subscribed?.
+        /// </summary>
+        internal static string RentSubControl_AlreadySubscribed {
+            get {
+                return ResourceManager.GetString("RentSubControl.AlreadySubscribed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to BEST VALUE.
+        /// </summary>
+        internal static string RentSubControl_BestValue {
+            get {
+                return ResourceManager.GetString("RentSubControl.BestValue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cancel anytime.
+        /// </summary>
+        internal static string RentSubControl_CancelAnytime {
+            get {
+                return ResourceManager.GetString("RentSubControl.CancelAnytime", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to CHOOSE YOUR PLAN.
+        /// </summary>
+        internal static string RentSubControl_ChooseYourPlanUpper {
+            get {
+                return ResourceManager.GetString("RentSubControl.ChooseYourPlanUpper", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Continue with Pro.
+        /// </summary>
+        internal static string RentSubControl_ContinueWithPro {
+            get {
+                return ResourceManager.GetString("RentSubControl.ContinueWithPro", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;EMPTY NAME&gt;.
+        /// </summary>
+        internal static string RentSubControl_EmptyAccountName {
+            get {
+                return ResourceManager.GetString("RentSubControl.EmptyAccountName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 60+ aircraft.
+        /// </summary>
+        internal static string RentSubControl_FeatureAircraft {
+            get {
+                return ResourceManager.GetString("RentSubControl.FeatureAircraft", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 27,000+ airports.
+        /// </summary>
+        internal static string RentSubControl_FeatureAirports {
+            get {
+                return ResourceManager.GetString("RentSubControl.FeatureAirports", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Air traffic control.
+        /// </summary>
+        internal static string RentSubControl_FeatureAirTrafficControl {
+            get {
+                return ResourceManager.GetString("RentSubControl.FeatureAirTrafficControl", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Autopilot+.
+        /// </summary>
+        internal static string RentSubControl_FeatureAutopilotPlus {
+            get {
+                return ResourceManager.GetString("RentSubControl.FeatureAutopilotPlus", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to EFB integration.
+        /// </summary>
+        internal static string RentSubControl_FeatureEfbIntegration {
+            get {
+                return ResourceManager.GetString("RentSubControl.FeatureEfbIntegration", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Global HD scenery.
+        /// </summary>
+        internal static string RentSubControl_FeatureGlobalHdScenery {
+            get {
+                return ResourceManager.GetString("RentSubControl.FeatureGlobalHdScenery", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 1,000+ liveries.
+        /// </summary>
+        internal static string RentSubControl_FeatureLiveries {
+            get {
+                return ResourceManager.GetString("RentSubControl.FeatureLiveries", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Live multiplayer.
+        /// </summary>
+        internal static string RentSubControl_FeatureLiveMultiplayer {
+            get {
+                return ResourceManager.GetString("RentSubControl.FeatureLiveMultiplayer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Live weather.
+        /// </summary>
+        internal static string RentSubControl_FeatureLiveWeather {
+            get {
+                return ResourceManager.GetString("RentSubControl.FeatureLiveWeather", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to SimBrief integration.
+        /// </summary>
+        internal static string RentSubControl_FeatureSimBriefIntegration {
+            get {
+                return ResourceManager.GetString("RentSubControl.FeatureSimBriefIntegration", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Found {0} saved accounts..
+        /// </summary>
+        internal static string RentSubControl_InsufficientAccountsMessage {
+            get {
+                return ResourceManager.GetString("RentSubControl.InsufficientAccountsMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Monthly.
+        /// </summary>
+        internal static string RentSubControl_Monthly {
+            get {
+                return ResourceManager.GetString("RentSubControl.Monthly", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to One-time purchase.
+        /// </summary>
+        internal static string RentSubControl_OneTimePurchase {
+            get {
+                return ResourceManager.GetString("RentSubControl.OneTimePurchase", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0}{1:0.00}/month.
+        /// </summary>
+        internal static string RentSubControl_PerMonth {
+            get {
+                return ResourceManager.GetString("RentSubControl.PerMonth", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0}{1:0.00}/month - {2}.
+        /// </summary>
+        internal static string RentSubControl_PerMonthWithSavings {
+            get {
+                return ResourceManager.GetString("RentSubControl.PerMonthWithSavings", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to /24hrs.
+        /// </summary>
+        internal static string RentSubControl_Period24Hours {
+            get {
+                return ResourceManager.GetString("RentSubControl.Period24Hours", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to /month.
+        /// </summary>
+        internal static string RentSubControl_PeriodMonth {
+            get {
+                return ResourceManager.GetString("RentSubControl.PeriodMonth", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to /6 months.
+        /// </summary>
+        internal static string RentSubControl_PeriodSixMonths {
+            get {
+                return ResourceManager.GetString("RentSubControl.PeriodSixMonths", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to /year.
+        /// </summary>
+        internal static string RentSubControl_PeriodYear {
+            get {
+                return ResourceManager.GetString("RentSubControl.PeriodYear", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0} - {1}.
+        /// </summary>
+        internal static string RentSubControl_PlanAndPriceFormat {
+            get {
+                return ResourceManager.GetString("RentSubControl.PlanAndPriceFormat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to PRO.
+        /// </summary>
+        internal static string RentSubControl_ProBadge {
+            get {
+                return ResourceManager.GetString("RentSubControl.ProBadge", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Redeem Code.
+        /// </summary>
+        internal static string RentSubControl_RedeemCode {
+            get {
+                return ResourceManager.GetString("RentSubControl.RedeemCode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Rent (24hrs).
+        /// </summary>
+        internal static string RentSubControl_Rent24Hours {
+            get {
+                return ResourceManager.GetString("RentSubControl.Rent24Hours", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Rent Aircraft.
+        /// </summary>
+        internal static string RentSubControl_RentAircraft {
+            get {
+                return ResourceManager.GetString("RentSubControl.RentAircraft", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0}{1}..
+        /// </summary>
+        internal static string RentSubControl_RentFootnote {
+            get {
+                return ResourceManager.GetString("RentSubControl.RentFootnote", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to "One of the best on the App Store" - Engadget.
+        /// </summary>
+        internal static string RentSubControl_ReviewQuoteEngadget {
+            get {
+                return ResourceManager.GetString("RentSubControl.ReviewQuoteEngadget", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to "The best flight simulator on mobile" - The New York Times.
+        /// </summary>
+        internal static string RentSubControl_ReviewQuoteNyt {
+            get {
+                return ResourceManager.GetString("RentSubControl.ReviewQuoteNyt", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to SAVE {0}%.
+        /// </summary>
+        internal static string RentSubControl_SavePercentUpper {
+            get {
+                return ResourceManager.GetString("RentSubControl.SavePercentUpper", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 6 Months.
+        /// </summary>
+        internal static string RentSubControl_SixMonths {
+            get {
+                return ResourceManager.GetString("RentSubControl.SixMonths", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0}{1}. Cancel anytime..
+        /// </summary>
+        internal static string RentSubControl_SubscriptionFootnote {
+            get {
+                return ResourceManager.GetString("RentSubControl.SubscriptionFootnote", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Subscription Unavailable.
+        /// </summary>
+        internal static string RentSubControl_SubscriptionUnavailable {
+            get {
+                return ResourceManager.GetString("RentSubControl.SubscriptionUnavailable", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Subscription purchases are disabled in the beta version. Please install Infinite Flight from the {0} to subscribe to Pro..
+        /// </summary>
+        internal static string RentSubControl_SubscriptionUnavailableBetaMessage {
+            get {
+                return ResourceManager.GetString("RentSubControl.SubscriptionUnavailableBetaMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Switching to {0}.
+        /// </summary>
+        internal static string RentSubControl_SwitchingTo {
+            get {
+                return ResourceManager.GetString("RentSubControl.SwitchingTo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Unlock the full flight simulation experience.
+        /// </summary>
+        internal static string RentSubControl_UnlockFullExperience {
+            get {
+                return ResourceManager.GetString("RentSubControl.UnlockFullExperience", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Yearly.
+        /// </summary>
+        internal static string RentSubControl_Yearly {
+            get {
+                return ResourceManager.GetString("RentSubControl.Yearly", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to FLY WITH THOUSANDS OF OTHER PILOTS &amp; ATC.
+        /// </summary>
+        internal static string RentSubControl_MultiplayerWithAtc_Description {
+            get {
+                return ResourceManager.GetString("RentSubControl.MultiplayerWithAtc.Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to MULTIPLAYER WITH ATC.
+        /// </summary>
+        internal static string RentSubControl_MultiplayerWithAtc_Title {
+            get {
+                return ResourceManager.GetString("RentSubControl.MultiplayerWithAtc.Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to CLOUDS, WINDS ALOFT, DAY/NIGHT CYCLE, AND MORE.
+        /// </summary>
+        internal static string RentSubControl_RealisticAtmosphere_Description {
+            get {
+                return ResourceManager.GetString("RentSubControl.RealisticAtmosphere.Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to REALISTIC ATMOSPHERE.
+        /// </summary>
+        internal static string RentSubControl_RealisticAtmosphere_Title {
+            get {
+                return ResourceManager.GetString("RentSubControl.RealisticAtmosphere.Title", resourceCulture);
             }
         }
         
@@ -9391,11 +10291,11 @@ namespace Fds.Framework.EmbeddedResources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Clouds Altitude.
+        ///   Looks up a localized string similar to Cirrus Clouds Altitude.
         /// </summary>
-        internal static string WeatherPage_CloudsAltitude {
+        internal static string WeatherPage_CirrusCloudsAltitude {
             get {
-                return ResourceManager.GetString("WeatherPage.CloudsAltitude", resourceCulture);
+                return ResourceManager.GetString("WeatherPage.CirrusCloudsAltitude", resourceCulture);
             }
         }
         

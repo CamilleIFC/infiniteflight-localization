@@ -3678,4 +3678,297 @@ VUELO</value>
   <data name="Replay.DeleteSelectedReplayAction" xml:space="preserve">
     <value>Eliminar este archivo de replay</value>
   </data>
+  <data name="PauseFlightControl.AutoExit" xml:space="preserve">
+    <value>Salida Auto</value>
+    <comment>Auto Exit toggle label in pause menu (AutoPilot+ feature)</comment>
+  </data>
+  <data name="PauseFlightControl.AutoExitDescription" xml:space="preserve">
+    <value>Sale automáticamente del vuelo
+30 minutos antes del destino
+y continúa con AutoPilot+
+si las condiciones lo permiten.</value>
+    <comment>Auto Exit feature description popup text</comment>
+  </data>
+  <data name="Hud2.FullScreenModeHintLine1" xml:space="preserve">
+    <value>MANTÉN PRESIONADO EN EL CENTRO DE LA PANTALLA PARA ALTERNAR LOS CONTROLES</value>
+    <comment>Hint shown when entering full screen mode (hide controls)</comment>
+  </data>
+  <data name="Hud2.FullScreenModeHintDroneCamera" xml:space="preserve">
+    <value>EL MOVIMIENTO DE LA CÁMARA DRON PERMANECE ACTIVO</value>
+    <comment>Secondary hint when in drone camera mode with controls hidden</comment>
+  </data>
+  <data name="Hud2.FullScreenModeHintAileronElevator" xml:space="preserve">
+    <value>EL CONTROL DE ALERONES/ELEVADOR PERMANECE ACTIVO</value>
+    <comment>Secondary hint when on-screen controls enabled with controls hidden</comment>
+  </data>
+  <data name="OnScreenJoystickControl.Move" xml:space="preserve">
+    <value>MOVER</value>
+    <comment>Label for camera motion joystick (drone camera left stick)</comment>
+  </data>
+  <data name="OnScreenJoystickControl.Look" xml:space="preserve">
+    <value>MIRAR</value>
+    <comment>Label for camera rotation joystick (drone camera right stick)</comment>
+  </data>
+  <data name="OnScreenJoystickControl.TapToUse" xml:space="preserve">
+    <value>TOCA PARA USAR</value>
+    <comment>Onboarding hint for on-screen joystick controls</comment>
+  </data>
+  <data name="ControlMethodPopup.SelectControlMode" xml:space="preserve">
+    <value>SELECCIONAR MODO DE CONTROL</value>
+    <comment>Title of the control method selection popup</comment>
+  </data>
+  <data name="ControlMethodPopup.Tilt" xml:space="preserve">
+    <value>INCLINACIÓN</value>
+    <comment>Label for tilt/accelerometer control option</comment>
+  </data>
+  <data name="ControlMethodPopup.Touch" xml:space="preserve">
+    <value>TÁCTIL</value>
+    <comment>Label for on-screen touch joystick control option</comment>
+  </data>
+  <data name="ControlMethodPopup.OK" xml:space="preserve">
+    <value>OK</value>
+    <comment>OK button text in control method popup</comment>
+  </data>
+  <data name="ApplicationSettings.FlightControlInput" xml:space="preserve">
+    <value>Entrada de control de vuelo</value>
+    <comment>Setting name for flight control input method selection</comment>
+  </data>
+  <data name="ApplicationSettings.FlightControlInputDescription" xml:space="preserve">
+    <value>Elige cómo controlar el avión: movimiento o controles en pantalla</value>
+    <comment>Setting description for flight control input method selection</comment>
+  </data>
+  <data name="ApplicationSettings.ShowControlMethodPopup" xml:space="preserve">
+    <value>Mostrar ventana de selección del modo de control</value>
+    <comment>Debug setting name for showing control method selection on flight start</comment>
+  </data>
+  <data name="ApplicationSettings.ShowControlMethodPopupDescription" xml:space="preserve">
+    <value>Restablecer para mostrar la selección del modo de control al iniciar el vuelo</value>
+    <comment>Debug setting description for showing control method selection on flight start</comment>
+  </data>
+  <data name="JoystickPanningArea.ShowingInterfaceInFormat" xml:space="preserve">
+    <value>Mostrando interfaz en {0}...</value>
+    <comment>Countdown text when controls are about to be shown. {0} is replaced with seconds remaining.</comment>
+  </data>
+  <data name="JoystickPanningArea.HidingInterfaceInFormat" xml:space="preserve">
+    <value>Ocultando interfaz en {0}...</value>
+    <comment>Countdown text when controls are about to be hidden. {0} is replaced with seconds remaining.</comment>
+  </data>
+  <data name="Flight Control Input" xml:space="preserve">
+    <value>Modo de control</value>
+    <comment>Settings property name - used as resource key by PropertyGrid</comment>
+  </data>
+  <data name="Choose how to control the aircraft: motion or on-screen controls" xml:space="preserve">
+    <value>Elige cómo pilotar: inclinación o controles táctiles</value>
+    <comment>Settings property description - used as resource key by PropertyGrid</comment>
+  </data>
+  <data name="Tilt" xml:space="preserve">
+    <value>Inclinación</value>
+    <comment>Control mode option - tilt/accelerometer control</comment>
+  </data>
+  <data name="Touch" xml:space="preserve">
+    <value>Táctil</value>
+    <comment>Control mode option - on-screen touch controls</comment>
+  </data>
+  <data name="Show Control Method Popup" xml:space="preserve">
+    <value>Mostrar selección del modo de control</value>
+    <comment>Debug settings property name - used as resource key by PropertyGrid</comment>
+  </data>
+  <data name="Reset to show control method selection on flight start" xml:space="preserve">
+    <value>Volver a mostrar la selección del modo de control al iniciar el vuelo</value>
+    <comment>Debug settings property description - used as resource key by PropertyGrid</comment>
+  </data>
+  <data name="FlightAnalyzer.AutoPilotPlusTitle" xml:space="preserve">
+    <value>Salida Auto</value>
+    <comment>Title for the Auto Exit confirmation dialog</comment>
+  </data>
+  <data name="FlightAnalyzer.AutoPilotPlusMessage" xml:space="preserve">
+    <value>La Salida Auto se activará en 1 minuto si las condiciones se mantienen.
+
+Pulsa Cancelar para desactivarlo.</value>
+    <comment>Message for the Auto Exit confirmation dialog</comment>
+  </data>
+  <data name="FlightAnalyzer.AutoPilotPlusOK" xml:space="preserve">
+    <value>OK</value>
+    <comment>OK button for Autopilot+ dialog</comment>
+  </data>
+  <data name="FlightAnalyzer.AutoPilotPlusCancel" xml:space="preserve">
+    <value>CANCELAR</value>
+    <comment>Cancel button for Autopilot+ dialog</comment>
+  </data>
+  <data name="ProPlansControl.FailedToRetrieveSubs" xml:space="preserve">
+    <value>No se pudieron obtener los planes de suscripción</value>
+    <comment>Failed to retrieve any subscription plans</comment>
+  </data>
+  <data name="ProPlansControl.UnauthorizedAccess" xml:space="preserve">
+    <value>Acceso no autorizado a los planes de suscripción</value>
+    <comment>Unauthorized access to subscription plans</comment>
+  </data>
+  <data name="RentSubControl.MoreOptions" xml:space="preserve">
+    <value>Más opciones</value>
+    <comment>More Options</comment>
+  </data>
+  <data name="RentSubControl.AlreadySubscribed" xml:space="preserve">
+    <value>¿Ya estás suscrito?</value>
+    <comment>Already subscribed?</comment>
+  </data>
+  <data name="RentSubControl.BestValue" xml:space="preserve">
+    <value>MEJOR OFERTA</value>
+    <comment>BEST VALUE</comment>
+  </data>
+  <data name="RentSubControl.CancelAnytime" xml:space="preserve">
+    <value>Cancela cuando quieras</value>
+    <comment>Cancel anytime</comment>
+  </data>
+  <data name="RentSubControl.ChooseYourPlanUpper" xml:space="preserve">
+    <value>ELIGE TU PLAN</value>
+    <comment>CHOOSE YOUR PLAN</comment>
+  </data>
+  <data name="RentSubControl.ContinueWithPro" xml:space="preserve">
+    <value>Continuar con Pro</value>
+    <comment>Continue with Pro</comment>
+  </data>
+  <data name="RentSubControl.EmptyAccountName" xml:space="preserve">
+    <value>&lt;NOMBRE VACÍO&gt;</value>
+    <comment>&lt;EMPTY NAME&gt;</comment>
+  </data>
+  <data name="RentSubControl.FeatureAircraft" xml:space="preserve">
+    <value>Más de 60 aviones</value>
+    <comment>60+ aircraft</comment>
+  </data>
+  <data name="RentSubControl.FeatureAirports" xml:space="preserve">
+    <value>Más de 27 000 aeropuertos</value>
+    <comment>27,000+ airports</comment>
+  </data>
+  <data name="RentSubControl.FeatureAirTrafficControl" xml:space="preserve">
+    <value>Control de tráfico aéreo</value>
+    <comment>Air traffic control</comment>
+  </data>
+  <data name="RentSubControl.FeatureAutopilotPlus" xml:space="preserve">
+    <value>AutoPilot+</value>
+    <comment>AutoPilot+</comment>
+  </data>
+  <data name="RentSubControl.FeatureEfbIntegration" xml:space="preserve">
+    <value>Integración con EFB</value>
+    <comment>EFB integration</comment>
+  </data>
+  <data name="RentSubControl.FeatureGlobalHdScenery" xml:space="preserve">
+    <value>Escenario global en HD</value>
+    <comment>Global HD scenery</comment>
+  </data>
+  <data name="RentSubControl.FeatureLiveries" xml:space="preserve">
+    <value>Más de 1000 libreas</value>
+    <comment>1,000+ liveries</comment>
+  </data>
+  <data name="RentSubControl.FeatureLiveMultiplayer" xml:space="preserve">
+    <value>Multijugador en directo</value>
+    <comment>Live multiplayer</comment>
+  </data>
+  <data name="RentSubControl.FeatureLiveWeather" xml:space="preserve">
+    <value>Meteorología en directo</value>
+    <comment>Live weather</comment>
+  </data>
+  <data name="RentSubControl.FeatureSimBriefIntegration" xml:space="preserve">
+    <value>Integración con SimBrief</value>
+    <comment>SimBrief integration</comment>
+  </data>
+  <data name="RentSubControl.InsufficientAccountsMessage" xml:space="preserve">
+    <value>Cuentas guardadas: {0}</value>
+    <comment>Found {0} saved accounts.</comment>
+  </data>
+  <data name="RentSubControl.Monthly" xml:space="preserve">
+    <value>Mensual</value>
+    <comment>Monthly</comment>
+  </data>
+  <data name="RentSubControl.OneTimePurchase" xml:space="preserve">
+    <value>Compra única</value>
+    <comment>One-time purchase</comment>
+  </data>
+  <data name="RentSubControl.PerMonth" xml:space="preserve">
+    <value>{0}{1:0.00}/mes</value>
+    <comment>{currency}{price}/month</comment>
+  </data>
+  <data name="RentSubControl.PerMonthWithSavings" xml:space="preserve">
+    <value>{0}{1:0.00}/mes - {2}</value>
+    <comment>{currency}{price}/month - {savings}</comment>
+  </data>
+  <data name="RentSubControl.Period24Hours" xml:space="preserve">
+    <value>/24 h</value>
+    <comment>/24hrs</comment>
+  </data>
+  <data name="RentSubControl.PeriodMonth" xml:space="preserve">
+    <value>/mes</value>
+    <comment>/month</comment>
+  </data>
+  <data name="RentSubControl.PeriodSixMonths" xml:space="preserve">
+    <value>/6 meses</value>
+    <comment>/6 months</comment>
+  </data>
+  <data name="RentSubControl.PeriodYear" xml:space="preserve">
+    <value>/año</value>
+    <comment>/year</comment>
+  </data>
+  <data name="RentSubControl.PlanAndPriceFormat" xml:space="preserve">
+    <value>{0} - {1}</value>
+    <comment>{plan} - {localized price}</comment>
+  </data>
+  <data name="RentSubControl.ProBadge" xml:space="preserve">
+    <value>PRO</value>
+    <comment>PRO</comment>
+  </data>
+  <data name="RentSubControl.RedeemCode" xml:space="preserve">
+    <value>Canjear código</value>
+    <comment>Redeem Code</comment>
+  </data>
+  <data name="RentSubControl.Rent24Hours" xml:space="preserve">
+    <value>Alquiler (24 h)</value>
+    <comment>Rent (24hrs)</comment>
+  </data>
+  <data name="RentSubControl.RentAircraft" xml:space="preserve">
+    <value>Alquilar avión</value>
+    <comment>Rent Aircraft</comment>
+  </data>
+  <data name="RentSubControl.RentFootnote" xml:space="preserve">
+    <value>{0}{1}.</value>
+    <comment>{price}{period}.</comment>
+  </data>
+  <data name="RentSubControl.ReviewQuoteEngadget" xml:space="preserve">
+    <value>"Uno de los mejores de la App Store" - Engadget</value>
+    <comment>"One of the best on the App Store" - Engadget</comment>
+  </data>
+  <data name="RentSubControl.ReviewQuoteNyt" xml:space="preserve">
+    <value>"El mejor simulador de vuelo en móviles" - The New York Times</value>
+    <comment>"The best flight simulator on mobile" - The New York Times</comment>
+  </data>
+  <data name="RentSubControl.SavePercentUpper" xml:space="preserve">
+    <value>AHORRA UN {0}%</value>
+    <comment>SAVE {percent}%</comment>
+  </data>
+  <data name="RentSubControl.SixMonths" xml:space="preserve">
+    <value>6 meses</value>
+    <comment>6 Months</comment>
+  </data>
+  <data name="RentSubControl.SubscriptionFootnote" xml:space="preserve">
+    <value>{0}{1}. Cancela cuando quieras.</value>
+    <comment>{price}{period}. Cancel anytime.</comment>
+  </data>
+  <data name="RentSubControl.SubscriptionUnavailable" xml:space="preserve">
+    <value>Suscripción no disponible</value>
+    <comment>Subscription Unavailable</comment>
+  </data>
+  <data name="RentSubControl.SubscriptionUnavailableBetaMessage" xml:space="preserve">
+    <value>Las compras de suscripciones están desactivadas en la versión beta. Instala Infinite Flight desde {0} para suscribirte a Pro.</value>
+    <comment>Subscription purchases are disabled in the beta version. Please install Infinite Flight from the {0} to subscribe to Pro.</comment>
+  </data>
+  <data name="RentSubControl.SwitchingTo" xml:space="preserve">
+    <value>Cambiando a {0}</value>
+    <comment>Switching to {0}</comment>
+  </data>
+  <data name="RentSubControl.UnlockFullExperience" xml:space="preserve">
+    <value>Vive la experiencia completa de vuelo</value>
+    <comment>Unlock the full flight simulation experience</comment>
+  </data>
+  <data name="RentSubControl.Yearly" xml:space="preserve">
+    <value>Anual</value>
+    <comment>Yearly</comment>
+  </data>
 </root>
